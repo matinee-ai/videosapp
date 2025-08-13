@@ -21,8 +21,8 @@ This repository contains the legal documents required for app approval on platfo
 4. Save settings and copy the public URLs for each file.
 
 Example:
-- Terms of Service URL: `[terms](https://github.com/matinee-ai/videosapp/terms)`
-- Privacy Policy URL: `[privacy](https://github.com/matinee-ai/videosapp/privacy)`
+- Terms of Service URL: [terms](https://github.com/matinee-ai/videosapp/terms)
+- Privacy Policy URL: [privacy](https://github.com/matinee-ai/videosapp/privacy)
 
 ## Contact
 For any questions about TinyAnimalSafari, email: **matineellc@gmail.com**
