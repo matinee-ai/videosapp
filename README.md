@@ -1,10 +1,10 @@
-# TinyAnimalSafari – AI Video Content for Kids
+# TinyAnimalSafari – AI Video Content for Teenagers
 
 TinyAnimalSafari is an application that creates **AI-generated educational and play-based video content for children**.  
 Our goal is to combine fun and learning, delivering safe, engaging videos that spark curiosity and creativity.
 
 ## Features
-- AI-generated video content suitable for kids  
+- AI-generated video content suitable for teenagers  
 - Educational themes: animals, science, art, and more  
 - Play-based learning videos for entertainment and growth  
 - Integration with TikTok and other platforms for easy publishing  
