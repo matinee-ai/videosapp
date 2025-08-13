@@ -25,4 +25,4 @@ You authorize the App to connect with your TikTok account or other social media 
 We provide the App “as is” without warranties of any kind.  
 
 ## 7. Contact  
-If you have questions, email us at **[your email]**.  
+If you have questions, email us at **matineellc@gmail.com**.  
