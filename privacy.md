@@ -27,4 +27,4 @@ Our App is designed for child-friendly educational content only. Parents or guar
 You may revoke our access at any time via the connected platform’s settings.  
 
 ## 6. Contact  
-For privacy questions, email us at **[your email]**.  
+For privacy questions, email us at **matineellc@gmail.com**.  
