@@ -1,0 +1,32 @@
+
+:root {
+  color-scheme: dark;
+  --bg: #0b1022;
+  --panel: #111831;
+  --accent: #39e58c;
+  --text: #e6edf3;
+  --muted: #96a3b3;
+}
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; }
+.container { display:flex; flex-direction:column; align-items:center; gap: 12px; padding: 20px; }
+h1 { font-size: 22px; margin: 6px 0 4px; }
+.controls { display:flex; gap:12px; flex-wrap: wrap; align-items: end; }
+.select, .button { background: var(--panel); color: var(--text); border: 1px solid #27304a; border-radius: 10px; padding: 8px 10px; }
+.button.primary { background: var(--accent); color:#0a0f1f; font-weight: 700; border: none; }
+.small { color: var(--muted); font-size: 12px; }
+.canvasWrap { overflow: hidden; border-radius: 12px; border: 1px solid #1a2342; box-shadow: 0 6px 20px rgba(0,0,0,0.25); }
+.hudRow { display:flex; gap: 10px; align-items: center; }
+kbd { background:#0b142b; border:1px solid #1f2a4d; border-bottom-width:2px; color:#d6deeb; border-radius:6px; padding: 2px 6px; font-size:12px; }
+.grid { display:grid; gap:8px; grid-template-columns: repeat(2, minmax(140px, 1fr)); }
+.card { background: var(--panel); border:1px solid #27304a; border-radius: 12px; padding: 10px 12px; }
+.list { margin:6px 0 0; padding:0; list-style:none; font-size: 13px; color:#c7d2e0; }
+.list li { display:flex; justify-content:space-between; padding: 4px 0; border-bottom: 1px dashed #253157; }
+.list li:last-child { border-bottom: none; }
+.dpad { position: absolute; bottom: 16px; left: 16px; display:grid; grid-template-columns: 48px 48px 48px; grid-template-rows: 48px 48px 48px; gap: 6px; opacity: 0.9; }
+.dpad button, .abilityBtn { background:#12203f; border:1px solid #2a3a6b; color:#dfe7ff; border-radius: 10px; font-size: 14px; }
+.dpad button { width:48px; height:48px; }
+.abilityBtn { position:absolute; bottom: 16px; right: 16px; width: 84px; height: 84px; font-weight: 700; }
+.mobileOverlay { position: relative; width: 100%; max-width: fit-content; }
+@media (min-width: 900px) { .dpad, .abilityBtn { display:none; } }
